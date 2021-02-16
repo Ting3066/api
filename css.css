@@ -1,0 +1,70 @@
+*{
+  letter-spacing: 0.5rem;
+}
+
+body{
+  width:100vw;
+  height:100vh;
+  position: relative;
+  background:linear-gradient(180deg, rgba(133,150,185,1) 0%, rgba(180,194,222,1) 100%);
+}
+
+.title{
+  font-size: 3rem;
+  color: #eee;
+  text-align: center;
+}
+
+#location{
+  font-size: 2.5rem;
+  color: #eee;
+  text-align: center;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.land {
+  fill: green;
+  fill-opacity: 1;
+  stroke: white;
+  stroke-opacity: 1;
+  stroke-width: 0.5;
+}
+
+.land:hover {
+  fill: rgb(54 83 148);
+}
+
+.active{
+  fill: rgb(54 83 148);
+}
+
+svg{
+  width: 620px;
+  height: 900px;
+  padding-top: 50px;
+}
+
+.weather{
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 10px;
+  background: rgb(54 83 148);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.foot{
+  position: fixed;
+  bottom: 0;
+  background: rgb(54 83 148);
+  width: 100vw;
+  color: #eee;
+  text-align: center;
+}
+
